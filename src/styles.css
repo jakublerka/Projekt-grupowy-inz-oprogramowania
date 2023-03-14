@@ -1,0 +1,61 @@
+body {
+    /* background-color: darkgray; */
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-color: black;
+}
+
+.labelsHeader{
+    color:white;
+}
+
+#raport{
+    position: relative;
+    top: 10%;
+    width: 20%;
+    left: 4.5%;
+}
+
+.queryFilters{
+    position: relative;
+    top: 50%;
+    width: 95%;
+    left: 5%;
+    right: 5%;
+}
+
+#queryResults{
+    background-color: white;
+    position:relative;
+    width: 90%;
+    height: 63%;
+    top: 32%;
+    left: 5%;
+    right: 5%;
+    border: 1px solid black;
+}
+
+#counter{
+    position: relative;
+    height: 5%;
+    width: 10%;
+    left: 85%;
+    right: 10%;
+    top: 32%;
+}

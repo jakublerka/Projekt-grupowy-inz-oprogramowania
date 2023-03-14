@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="main">
+            <div id="header">
+                <div id="raport">
+                    <label for="raport" class="labelsHeader">Raport</label><br>
+                    <select name="raport">
+                        <option value="Raport 1">Raport 1</option>
+                        <option value="Raport 2">Raport 2</option>
+                        <option value="Raport 3">Raport 3</option>
+                        <option value="Raport 4">Raport 4</option>
+                    </select>
+                </div>
+                <div class="queryFilters">
+                    <label for="data" class="labelsHeader">Data</label><br>
+                    <input type="date" id="data" name="data">
+                    <label for="idNumber" class="labelsHeader">ID</label> <!--This needs to be fixed so the label is above the input-->
+                    <input type="number" id="idNumber" name="ID" min=0>
+                    <label for="Kraj" class="labelsHeader">Kraj</label>
+                    <input type="text" id="country" name="country">
+                    <label for="city" class="labelsHeader">Miasto</label>
+                    <input type="text" id="city" name="city">
+                    <label for="appWeb" class="labelsHeader">App/web</label>
+                    <select name="appWeb">
+                        <option value="app">App</option>
+                        <option value="web">Web</option>
+                    </select>
+                </div>
+            </div>
+            <div id="queryResults">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reiciendis blanditiis a odit enim libero tempore quibusdam iusto, sed eveniet est similique neque sequi autem nobis possimus! Excepturi, id aut.
+                <br>
+                <br>
+                This is a sample text, don't judge.
+                <br>
+                <br>
+                In the end there will be SQL table here, this is just a placeholder.
+            </div>
+            <div id="counter">
+                Count: <span id="counterOutput">123456789</span>
+            </div>
+        </div>
+    </body>
+</html>
