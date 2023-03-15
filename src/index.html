@@ -16,28 +16,32 @@
                     </select>
                 </div>
                 <div class="queryFilters">
-                    <label for="data" class="labelsHeader">Data</label><br>
-                    <input type="date" id="data" name="data">
-                    <label for="idNumber" class="labelsHeader">ID</label> <!--This needs to be fixed so the label is above the input-->
-                    <input type="number" id="idNumber" name="ID" min=0>
-                    <label for="Kraj" class="labelsHeader">Kraj</label>
-                    <input type="text" id="country" name="country">
-                    <label for="city" class="labelsHeader">Miasto</label>
-                    <input type="text" id="city" name="city">
-                    <label for="appWeb" class="labelsHeader">App/web</label>
-                    <select name="appWeb">
-                        <option value="app">App</option>
-                        <option value="web">Web</option>
-                    </select>
+                    <div class="queryInput">
+                        <label for="data" class="labelsHeader">Data</label>
+                        <input type="date" id="data" name="data" value="">
+                    </div>
+                    <div class="queryInput">
+                        <label for="idNumber" class="labelsHeader">ID</label>
+                        <input type="number" id="idNumber" name="ID" value="" min=0>
+                    </div>
+                    <div class="queryInput">
+                        <label for="country" class="labelsHeader">Kraj</label>
+                        <input type="text" id="country" name="country" value="">
+                    </div>
+                    <div class="queryInput">
+                        <label for="city" class="labelsHeader">Miasto</label>
+                        <input type="text" id="city" name="city" value="">
+                    </div>
+                    <div class="queryInput">
+                        <label for="appWeb" class="labelsHeader">App/web</label>
+                        <select name="appWeb">
+                            <option value="app">App</option>
+                            <option value="web">Web</option>
+                        </select>
+                    </div>
                 </div>
             </div>
             <div id="queryResults">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reiciendis blanditiis a odit enim libero tempore quibusdam iusto, sed eveniet est similique neque sequi autem nobis possimus! Excepturi, id aut.
-                <br>
-                <br>
-                This is a sample text, don't judge.
-                <br>
-                <br>
                 In the end there will be SQL table here, this is just a placeholder.
             </div>
             <div id="counter">

@@ -4,6 +4,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+    background-color: dark-gray;
 }
 
 #main{
@@ -18,11 +19,27 @@ body {
     position: absolute;
     width: 100%;
     height: 30%;
-    background-color: black;
+    /* background-color: black; */
+}
+/*
+label + label{
+    position: relative;
+    margin-left: 12%;
+
 }
 
-.labelsHeader{
-    color:white;
+input + input, select{ /*Each input after the first one, plus each select after first input
+    position: relative;
+    width: 10%;
+    margin-left: 5%;
+}
+*/
+
+.queryInput{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    margin-right: 5%;
 }
 
 #raport{
@@ -41,7 +58,6 @@ body {
 }
 
 #queryResults{
-    background-color: white;
     position:relative;
     width: 90%;
     height: 63%;
@@ -49,6 +65,8 @@ body {
     left: 5%;
     right: 5%;
     border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 #counter{
