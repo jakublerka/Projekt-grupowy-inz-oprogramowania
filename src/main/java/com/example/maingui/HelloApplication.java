@@ -15,6 +15,15 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class HelloApplication extends Application {
+    public int sqlCounter;
+    public TableView sqlTableView;
+    public ObservableList<ObservableList> sqlData;
+    /* LINK DO GUIDE'A Z TWORZENIEM DYNAMIC TABLE VIEW FOR SQL
+    https://blog.ngopal.com.np/2011/10/19/dyanmic-tableview-data-from-database/comment-page-1/
+    */
+
+
+
     @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("SQL generator");
@@ -74,14 +83,24 @@ public class HelloApplication extends Application {
         ComboBox appWebChoice = new ComboBox(appWebLista);
         grid.add(appWebChoice, 32,5);
 
+        /*
         TextArea sqlOutput = new TextArea("test");
         sqlOutput.setEditable(false);
-        grid.add(sqlOutput, 0, 15, 32, 1);
+        grid.add(sqlOutput, 0, 15, 60, 40);
+         */
+
+        sqlTableView = new TableView();
+        grid.add(sqlTableView, 0,15, 60, 40);
+
+        Text counter = new Text("Count: "+sqlCounter);
+        grid.add(counter, 50, 55);
 
         Scene scene = new Scene(grid, 1366,768);
         primaryStage.setScene(scene);
 
         primaryStage.show();
+
+
     }
 
     public static void main(String[] args) {
