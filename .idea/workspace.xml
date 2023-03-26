@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f71e642b-8189-41e2-8f34-81b48da2d6c5" name="Changes" comment="New approach to the UI, testing things around">
+    <list default="true" id="f71e642b-8189-41e2-8f34-81b48da2d6c5" name="Changes" comment="Add tableView template instead of textarea">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/maingui/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/maingui/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/maingui/HelloApplication.java" afterDir="false" />
     </list>
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JavaFXApplication" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,7 +39,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Projekty PWIR/lab1"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -54,7 +56,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679728803909</updated>
-      <workItem from="1679728805283" duration="5682000" />
+      <workItem from="1679728805283" duration="7335000" />
+      <workItem from="1679814699017" duration="5875000" />
     </task>
     <task id="LOCAL-00001" summary="New approach to the UI, testing things around">
       <created>1679732639766</created>
@@ -70,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679732714641</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add tableView template instead of textarea">
+      <created>1679735917376</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679735917376</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New approach to the UI, testing things around" />
-    <option name="LAST_COMMIT_MESSAGE" value="New approach to the UI, testing things around" />
+    <MESSAGE value="Add tableView template instead of textarea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tableView template instead of textarea" />
   </component>
 </project>
