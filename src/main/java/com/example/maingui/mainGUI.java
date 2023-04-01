@@ -5,7 +5,6 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
-import javafx.fxml.FXML;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -16,7 +15,7 @@ import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class HelloApplication extends Application {
+public class mainGUI extends Application {
     public int sqlCounter;
     public TableView sqlTableView;
     public ObservableList<ObservableList> sqlData;
@@ -115,8 +114,6 @@ public class HelloApplication extends Application {
 
 
         primaryStage.show();
-
-
     }
 
     public static void main(String[] args) {
