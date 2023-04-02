@@ -84,20 +84,25 @@ public class mainGUI extends Application {
 
         Button generateButton = new Button("Generate");
         grid.add(generateButton, 40, 5);
+
+        //EVENTHANDLER DO PÓŁ-DYNAMICZNEGO DODAWANIA KOLUMN DO TABELI
+        //DYNAMICZNE DODWANIE TUTORIAL LINK WYŻEJ
         EventHandler<ActionEvent> buttonHandler = new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
                 idInput.getText();
                 appWebChoice.getItems();
                 krajInput.getText();
-                //datePicker;
+                datePicker.getValue();
                 miastoInput.getText();
                 sqlTableView.getColumns().clear();
                 TableColumn first = new TableColumn("Test");
                 TableColumn second = new TableColumn("Test2");
                 sqlTableView.getColumns().addAll(first, second);
+                //sqlTableView.add();
             }
         };
+        //DODANIE EVENTHANDLERA DO PRZYCIKSU
         generateButton.setOnAction(buttonHandler);
 
         sqlTableView = new TableView();
